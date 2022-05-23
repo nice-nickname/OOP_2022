@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lab2.Program" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab2.EnemyBase" Collapsed="true">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\enemies\EnemyBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab2.RandomEnemyFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\enemies\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab2.HeavyEnemy">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\enemies\i\Enemies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab2.FastEnemy">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\enemies\i\Enemies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab2.Game">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACIAAAAAAAAAAAAAAAAABAAAQAhAAACAAAA=</HashCode>
+      <FileName>src\game\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab2.ConsoleLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\log\ILogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab2.PoolItem">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\pool\EnemyPool.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Value" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab2.EnemyPool">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAACAgAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>src\pool\EnemyPool.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="pool" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="lab2.IEnemyFactory">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\enemies\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab2.IEnemy">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\enemies\IEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab2.ILogger">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\log\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
