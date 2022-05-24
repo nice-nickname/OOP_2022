@@ -56,13 +56,15 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="src\core\IAnimal.cs" />
+    <Compile Include="src\core\IAnimalState.cs" />
     <Compile Include="src\core\IAviary.cs" />
     <Compile Include="src\core\IEmployee.cs" />
     <Compile Include="src\core\IVisitable.cs" />
     <Compile Include="src\core\IVisitor.cs" />
-    <Compile Include="src\model\animal\Animals.cs" />
-    <Compile Include="src\model\aviary\Aviary.cs" />
-    <Compile Include="src\model\personnel\Personnel.cs" />
+    <Compile Include="src\model\animals\AnimalBase.cs" />
+    <Compile Include="src\model\animals\AnimalState.cs" />
+    <Compile Include="src\model\aviary\AviaryBase.cs" />
+    <Compile Include="src\model\employees\EmployeeBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

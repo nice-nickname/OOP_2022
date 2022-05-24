@@ -8,7 +8,7 @@
         Closed
     }
 
-    public interface IAviary
+    public interface IAviary : IVisitable
     {
         List<IAnimal> Animals { get; }
     }

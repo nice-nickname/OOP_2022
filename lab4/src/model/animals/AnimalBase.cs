@@ -1,19 +1,19 @@
 ﻿namespace lab4
 {
-    public abstract class Animal : IAnimal
+    public abstract class AnimalBase : IAnimal
     {
-        public HealthState State { get; set; }
+        public IAnimalState State { get; set; }
         public string Name { get; }
         public string Kind { get; }
 
-        protected Animal(string name, string kind)
+        protected AnimalBase(string name, string kind)
         {
             Name = name;
             Kind = kind;
-            State = HealthState.Healthy;
+            State = new AnimalHealthyState();
         }
 
-        public virtual void Accept(IVisitor visitor)
+        public void Accept(IVisitor visitor)
         {
             visitor.Visit(this);
         }
