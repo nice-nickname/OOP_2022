@@ -63,6 +63,7 @@
     <Compile Include="src\core\IVisitor.cs" />
     <Compile Include="src\model\animals\AnimalBase.cs" />
     <Compile Include="src\model\animals\AnimalState.cs" />
+    <Compile Include="src\model\animals\factory\IFactory.cs" />
     <Compile Include="src\model\aviary\AviaryBase.cs" />
     <Compile Include="src\model\employees\EmployeeBase.cs" />
     <Page Include="MainWindow.xaml">

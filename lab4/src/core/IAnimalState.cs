@@ -2,6 +2,11 @@
 {
     public interface IAnimalState
     {
-        void PrintMe();
+        void Handle(IAnimal context);
+    }
+
+    public interface IFoodState
+    {
+        void Handle(IAnimal context);
     }
 }
