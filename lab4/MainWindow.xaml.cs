@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 
 namespace lab4
 {
+    using lab4.viewmodel;
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -22,6 +24,7 @@ namespace lab4
     {
         public MainWindow()
         {
+            DataContext = new AviaryViewModel(OfType.Open);
             InitializeComponent();
         }
     }

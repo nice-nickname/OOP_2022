@@ -4,15 +4,20 @@
     {
         public IAnimalState State { get; set; }
 
+        public IFoodState FoodState { get; set; }
+
         public string Name { get; }
 
         public string Kind { get; }
+
+        public int ComfortTemperature { get; set; }
 
         protected AnimalBase(string name, string kind)
         {
             Name = name;
             Kind = kind;
-            State = new AnimalHealthyState();
+            State = new AnimalHealthyState(); 
+            FoodState = new AnimalFedState();
         }
 
         public void Accept(IVisitor visitor)

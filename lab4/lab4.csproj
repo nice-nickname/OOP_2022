@@ -66,6 +66,7 @@
     <Compile Include="src\model\animals\factory\IFactory.cs" />
     <Compile Include="src\model\aviary\AviaryBase.cs" />
     <Compile Include="src\model\employees\EmployeeBase.cs" />
+    <Compile Include="src\viewmodel\AviaryViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -106,7 +107,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\viewmodel\" />
     <Folder Include="src\view\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
